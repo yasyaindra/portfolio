@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #111111;
+  color: #ecedee;
+}
+
+nav {
+  backdrop-filter: blur(5px);
+}
+
+.introduction-section {
+  height: 70vh;
+}
+
+.introduction-section h1,
+.description-section h1,
+.portfolio-section h1,
+.demo-section h1,
+.testimonials-section h1,
+.offering-section h1,
+.contact-section h1,
+.social-media-section h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.introduction-section h1 span {
+  color: #dc31f7;
+}
+
+.portfolio-section .text-subtitle {
+  font-size: 30px;
+  color: #787f85;
+  margin-bottom: 36px;
+}
+
+.introduction-button {
+  background-color: #0072f5;
+  color: #fafafa;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+
+.introduction-button:hover {
+  background-color: #0072f574;
+  color: #fafafa;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.values-section p {
+  color: #9ba1a6;
+}
+
+.values-section h5 {
+  color: #fafafa;
+}
+
+.values-section .card {
+  background-color: #0d0d0d;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  backdrop-filter: blur(5px);
+}
+
+.description-section {
+  margin-top: 190px;
+}
+
+.description-section p {
+  color: #787f85;
+  font-size: 20px;
+}
+
+.description-section-item i {
+  margin-right: 28px;
+  color: #787f85;
+  font-size: 40px;
+  padding-right: 20px;
+}
+
+.description-section-item span {
+  color: #787f85;
+}
+
+.img-description {
+  border-radius: 20px;
+  width: 564px;
+  height: 368px;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) blur(3px);
+}
+
+.portfolio-section {
+  margin-top: 28px;
+}
+
+.demo-section iframe {
+  width: 100%;
+  height: 320px;
+}
+
+.testimonials-section .card {
+  border-radius: 21px;
+  background-color: #0c0c0c;
+  color: #9ba1a6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.testimonials-section .card:hover {
+  border-radius: 21px;
+  background-color: #0c0c0c;
+  color: #9ba1a6;
+  box-shadow: rgba(255, 255, 255, 0.136) 0px 5px 15px;
+}
+
+.testimonials-section .card img {
+  width: 100px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.offering-section .card {
+  background-color: #0c0c0c;
+  color: #787f85;
+}
+
+.offering-section p {
+  font-size: 20px;
+  color: #ecedee;
+}
+
+.contact-section .card {
+  box-shadow: rgba(255, 255, 255, 0.136) 0px 5px 15px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  background-color: #787f8512 !important;
+}
+
+.social-media-section {
+  margin-top: 120px;
+}
+
+.social-media-section .card {
+  background-color: #0c0c0c;
+  color: #fafafa;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.social-media-section .card:hover {
+  background-color: #0c0c0c;
+  color: #fafafa;
+  box-shadow: rgba(255, 255, 255, 0.136) 0px 5px 15px;
+}
+
+.social-media-section .card p {
+  font-weight: lighter;
+  color: #787f85;
+}
+
+.tech-section img {
+  width: 80px;
+  height: 50px;
+}
+
+@media (min-width: 576px) {
+  .demo-section iframe {
+    width: 100%;
+    height: 720px;
+  }
+
+  .introduction-section h1,
+  .description-section h1,
+  .portfolio-section h1,
+  .demo-section h1,
+  .testimonials-section h1,
+  .offering-section h1,
+  .contact-section h1,
+  .social-media-section h1 {
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  .introduction-section p,
+  .portfolio-section p,
+  .demo-section p,
+  .offering-section p.subtitle-section,
+  .testimonials-section p.subtitle-section,
+  .contact-section p.subtitle-section,
+  .social-media-section p.subtitle-section {
+    font-size: 35px;
+    color: #787f85;
+    margin-bottom: 36px;
+  }
+}
